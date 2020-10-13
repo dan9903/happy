@@ -1,0 +1,11 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "orphanages",
+      "database": "${workspaceFolder:backend}/src/database/database.sqlite"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}
