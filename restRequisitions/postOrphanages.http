@@ -1,0 +1,12 @@
+POST http://localhost:3333/orphanages HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Lar das meninas",
+  "latitude": -13.2282185,
+  "longitude": -39.5128642,
+  "about": "Sobre o orfanatos",
+  "instructions": "Venha visitar",
+  "opening_hours": "Das 8 as 15",
+  "open_on_weekends": true
+}
